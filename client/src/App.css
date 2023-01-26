@@ -1,0 +1,105 @@
+
+
+.colorCard {
+  height: 200px;
+  width: 200px;
+}
+
+
+
+.colorCard {
+  width: 200px;
+  height: 200px;
+
+}
+
+.buttonsWrapwer {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  margin-left: 550px;
+
+
+}
+
+.red {
+  background-color: red;
+  border-radius: 100% 0 0 0;
+}
+
+.yellow {
+  background-color: yellow;
+  border-radius: 0 0 0 100%;
+}
+
+.blue {
+  background-color: blue;
+  border-radius: 0 0 100% 0;
+}
+
+.green {
+  background-color: green;
+  border-radius: 0 100% 0 0;
+}
+
+button {
+  display: flex;
+}
+
+.red.flash {
+  background-color: rgb(255, 125, 125);
+  border-radius: 100% 0 0 0;
+
+}
+
+.green.flash {
+  background-color: rgb(125, 255, 125);
+  border-radius: 0 100% 0 0;
+}
+
+.blue.flash {
+  background-color: rgb(125, 125, 225);
+  border-radius: 0 0 100% 0;
+}
+
+.yellow.flash {
+  background-color: rgb(255, 225, 125);
+  border-radius: 0 0 0 100%;
+}
+
+.flash {
+  border: 3px black solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.startButton {
+  width: 150px;
+  height: 50px;
+  margin-left: 45%;
+  margin-top: 10px;
+  background-color: #cdc0ff;
+  font-size: 40px;
+
+}
+
+.score {
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  background-color: #cdc0ff;
+  ;
+  margin-left: 45%;
+  margin-top: 10px;
+
+}
+.Quit{
+  text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: #cdc0ff;
+    margin-left: 45%;
+    margin-top: 10px;
+      font-size: 40px;
+
+}
